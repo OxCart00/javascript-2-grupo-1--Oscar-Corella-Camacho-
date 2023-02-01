@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios CLase 2</title>
+</head>
+
+<body>
+  <input id="myinput" type="number" value="0">
+  <button id="btnup" onclick="ejecution(true)">Incrementar</button>
+  <button id="btndown" onclick="ejecution(false)">Disminuir</button>
+</body>
+
+<script>
+  function ejecution(increment) {
+    let input = document.getElementById("myinput");
+
+    if (increment) {
+      input.value = parseFloat(input.value) + 1;
+    }
+    else{
+      input.value = parseFloat(input.value) - 1;
+    }
+  }
+</script>
+</html>
