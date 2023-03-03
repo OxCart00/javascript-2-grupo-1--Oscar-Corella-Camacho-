@@ -27,8 +27,10 @@ libreriaUno.agregarLibro = "El cuervo";
 
 // Nuevo comic a la lista de comics
 libreriaUno.agregarComic = "Nanatsu No Taisai";
+libreriaUno.agregarComic = "Shigatsu Wa Kimi No Uso";
+libreriaUno.agregarComic = "Kimetsu No Yaiba";
 
-//Imprimir informacion de la libreria
+// Imprimir informacion de la libreria
 libreriaUno.display();
 
 class libro {
