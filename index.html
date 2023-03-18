@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Bookstore</title>
+</head>
+<body>
+  <div class="container">
+    <div id="sidebar" class="sidebar"></div>
+    <div id="main-content" class="main-content"></div>
+    <form id="add-book-form" style="display: none;">
+      <h3>Agregar un libro</h3>
+      <label for="title">Título:</label>
+      <input type="text" id="bookTitle" name="title" required>
+      <label for="author">Autor:</label>
+      <input type="text" id="bookAuthor" name="author" required>
+      <label for="price">Precio:</label>
+      <input type="number" id="bookPrice" name="price" required>
+      <label for="stock">Cantidad en stock:</label>
+      <input type="number" id="bookStock" name="stock" required>
+      <label for="year">Año de publicación:</label>
+      <input type="number" id="bookYear" name="year" required>
+      <button type="submit">Agregar libro</button>
+    </form>
+    <form id="add-comic-form" style="display: none;">
+      <h3>Agregar un cómic</h3>
+      <label for="title">Título:</label>
+      <input type="text" id="comicTitle" name="title" required>
+      <label for="author">Autor:</label>
+      <input type="text" id="comicAuthor" name="author" required>
+      <label for="price">Precio:</label>
+      <input type="number" id="comicPrice" name="price" required>
+      <label for="stock">Cantidad en stock:</label>
+      <input type="number" id="comicStock" name="stock" required>
+      <label for="year">Año de publicación:</label>
+      <input type="number" id="comicYear" name="year" required>
+      <label for="illustrator">Ilustrador:</label>
+      <input type="text" id="illustrator" name="illustrator" required>
+      <label for="publisher">Editor:</label>
+      <input type="text" id="publisher" name="publisher" required>
+      <label for="volume">Volumen:</label>
+      <input type="number" id="volume" name="volume" required>
+      <button type="submit">Agregar cómic</button>
+    </form>
+  </div>
+</body>
+<script type="module" src="main.js"></script>
+</html>

@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+}
+
+.sidebar{
+  background-color: brown;
+  color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 100vh;
+}
+.menu{
+  padding: 0;
+}
+.menu-item{
+  list-style: none;
+}
+button{
+  background-color: darkkhaki ;
+}
+.main-content{
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap;
+}
+.book{
+  width: 30%;
+}
